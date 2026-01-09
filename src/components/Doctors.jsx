@@ -1,6 +1,6 @@
 
 import DoctorCard from "./DoctorCard";
-import {infoDoctors} from '../utils/data/doctors.data'
+import {infoDoctors} from '@/utils/data/doctors.data'
 import SectionHeading from './layout/SectionHeading'
 import CustomSection from './layout/CustomSection'
 import Description from './layout/Description'

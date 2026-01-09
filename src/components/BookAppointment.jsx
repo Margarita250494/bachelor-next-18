@@ -1,7 +1,7 @@
 'use client'
 import Doctor from "../assets/doctor-book-appointment.webp";
 import { useRouter } from "next/navigation";
-import {infoBookAppointment} from '../utils/data/bookApointment.data'
+import {infoBookAppointment} from '@/utils/data/bookApointment.data'
 import {CalendarCheck, CircleCheck} from '../utils/icons'
 import {clsx} from 'clsx'
 import MainButton from './buttons/MainButton'

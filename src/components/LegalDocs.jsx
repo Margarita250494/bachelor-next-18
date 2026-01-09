@@ -1,6 +1,6 @@
 'use client'
 import  {Fragment, useEffect} from "react";
-import {infoLegalDocs} from '../utils/data/legalDocs.data'
+import {infoLegalDocs} from '@/utils/data/legalDocs.data'
 import AllRights from './AllRights'
 import Description from './layout/Description'
 import BrandTitle from './BrandTitle'

@@ -1,8 +1,6 @@
 'use client'
 import MainButton from './buttons/MainButton'
 import useNewsletter from '../utils/hooks/useNewsletter.hook'
-import { Suspense} from 'react'
-
 import dynamic from 'next/dynamic';
 
 const ToastProvider = dynamic(

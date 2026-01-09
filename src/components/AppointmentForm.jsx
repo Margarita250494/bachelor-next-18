@@ -1,13 +1,13 @@
 'use client'
 
-import {  Suspense, useEffect } from "react";
+import { useEffect } from "react";
 import AllRights from './AllRights'
 import MainButton from './buttons/MainButton'
 import BrandTitle from './BrandTitle'
 import SectionHeading from './layout/SectionHeading'
 import Input from './form/Input'
 import Select from './form/Select'
-import {genderData, modeData} from '../utils/data/form.data'
+import {genderData, modeData} from '@/utils/data/form.data'
 import SuccessMessage from './form/SuccessMessage'
 import useAppointmentForm from '../utils/hooks/useAppointment.hook'
 import dynamic from 'next/dynamic';
@@ -101,7 +101,7 @@ function AppointmentForm() {
           <MainButton
             type="submit"
             title="Confirm Appointment"
-            className="max-w-[239px]"
+            className="max-w-59.75"
           />
           <SuccessMessage isSubmitted={isSubmitted} />
         </form>

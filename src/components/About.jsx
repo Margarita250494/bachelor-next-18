@@ -1,6 +1,6 @@
 import Doctor from "../assets/doctor-group.webp";
 import SolutionStep from "./SolutionStep";
-import {aboutInfo} from '../utils/data/about.data'
+import {aboutInfo} from '@/utils/data/about.data'
 import SectionDefault from './layout/SectionDefault'
 import SectionHeading from './layout/SectionHeading'
 import Description from './layout/Description'
